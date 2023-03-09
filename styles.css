@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Smythe', cursive;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #8B8B8B;
+    box-shadow: 0 0 4px #8B8B8B;
+    height: 100vh;
+}
+header {
+    background: url('images/hero.png') center/cover no-repeat;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+}
+.icon{
+    align-self: center;
+    font-size: 90px;
+    padding: 5px 10px;
+    opacity: 0.75;
+    margin: 25px 0px;
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.main-container-items {
+    display: flex;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+h1, .subheading {
+    color: #FFFFFF;
+    font-weight: 400;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.subheading  {
+    font-size: 1.625rem;
+    line-height: 14px;
+}
+.item-name, .item-price {
+    color: #3C3C3C;
+    font-weight: 400;
+}
+.item-name {
+    font-size: 2.2rem;
+    margin: 5px;
+}
+.item-ingredients {
+    font-size: 1.25rem;
+    color: #8B8B8B;
+    margin: 5px;
+
+}
+.item-price {
+    font-size: 1.375rem;
+    margin: 5px;
+}
+button {
+    background: transparent;
+}
+.btn{
+    display: block;
+    border: 1px solid #8B8B8B;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #3C3C3C;
+    padding: 8px 16px;
+}
+section {
+    max-width: 500px;
+    margin: 0 auto;
+}
+/* section pre-checkout */
+#pre-checkout {
+    display: none;
+}
+.pre-checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px ;
+}
+.pre-checkout-heading {
+    font-size: 30px;
+    color: #3C3C3C;
+    margin: 5px;
+}
+.remove-btn {
+    color: #8B8B8B;
+    border: none;
+    font-weight: 400;
+}
+.pre-checkout {
+    display: flex;
+    flex-direction: column;
+}
+.btn-complete-order {
+    border: none;
+    background: #16DB99;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-weight: 700;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.border {
+    height: 3px;
+    margin: 5px;
+    background-color: #3C3C3C;
+}
